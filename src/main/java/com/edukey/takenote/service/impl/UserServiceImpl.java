@@ -1,4 +1,4 @@
-package com.mdtalalwasim.takenote.service.impl;
+package com.edukey.takenote.service.impl;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
@@ -6,9 +6,9 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.context.request.RequestContextHolder;
 import org.springframework.web.context.request.ServletRequestAttributes;
 
-import com.mdtalalwasim.takenote.entity.User;
-import com.mdtalalwasim.takenote.repository.UserRepository;
-import com.mdtalalwasim.takenote.service.UserService;
+import com.edukey.takenote.entity.User;
+import com.edukey.takenote.repository.UserRepository;
+import com.edukey.takenote.service.UserService;
 
 import jakarta.servlet.http.HttpSession;
 

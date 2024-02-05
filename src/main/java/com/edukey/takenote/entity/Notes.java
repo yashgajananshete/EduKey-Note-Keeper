@@ -1,4 +1,4 @@
-package com.mdtalalwasim.takenote.entity;
+package com.edukey.takenote.entity;
 
 import java.time.LocalDate;
 

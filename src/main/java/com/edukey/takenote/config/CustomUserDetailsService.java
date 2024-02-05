@@ -1,4 +1,4 @@
-package com.mdtalalwasim.takenote.config;
+package com.edukey.takenote.config;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -6,8 +6,8 @@ import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Service;
 
-import com.mdtalalwasim.takenote.entity.User;
-import com.mdtalalwasim.takenote.repository.UserRepository;
+import com.edukey.takenote.entity.User;
+import com.edukey.takenote.repository.UserRepository;
 
 @Service
 public class CustomUserDetailsService implements UserDetailsService {

@@ -1,12 +1,12 @@
-package com.mdtalalwasim.takenote.service;
+package com.edukey.takenote.service;
 
 import java.util.List;
 import java.util.Optional;
 
 import org.springframework.stereotype.Service;
 
-import com.mdtalalwasim.takenote.entity.Notes;
-import com.mdtalalwasim.takenote.entity.User;
+import com.edukey.takenote.entity.Notes;
+import com.edukey.takenote.entity.User;
 
 public interface NotesService {
 	

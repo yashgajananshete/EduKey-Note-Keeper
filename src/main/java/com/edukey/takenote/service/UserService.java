@@ -1,6 +1,6 @@
-package com.mdtalalwasim.takenote.service;
+package com.edukey.takenote.service;
 
-import com.mdtalalwasim.takenote.entity.User;
+import com.edukey.takenote.entity.User;
 
 public interface UserService {
 	

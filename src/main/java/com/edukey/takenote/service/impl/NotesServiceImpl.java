@@ -1,4 +1,4 @@
-package com.mdtalalwasim.takenote.service.impl;
+package com.edukey.takenote.service.impl;
 
 import java.util.List;
 import java.util.Optional;
@@ -6,10 +6,10 @@ import java.util.Optional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import com.mdtalalwasim.takenote.entity.Notes;
-import com.mdtalalwasim.takenote.entity.User;
-import com.mdtalalwasim.takenote.repository.NotesRepository;
-import com.mdtalalwasim.takenote.service.NotesService;
+import com.edukey.takenote.entity.Notes;
+import com.edukey.takenote.entity.User;
+import com.edukey.takenote.repository.NotesRepository;
+import com.edukey.takenote.service.NotesService;
 
 @Service
 public class NotesServiceImpl implements NotesService {

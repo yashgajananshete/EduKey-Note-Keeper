@@ -1,4 +1,4 @@
-package com.mdtalalwasim.takenote.controller;
+package com.edukey.takenote.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ModelAttribute;
 import org.springframework.web.bind.annotation.PostMapping;
 
-import com.mdtalalwasim.takenote.entity.User;
-import com.mdtalalwasim.takenote.service.UserService;
+import com.edukey.takenote.entity.User;
+import com.edukey.takenote.service.UserService;
 
 import jakarta.servlet.http.HttpSession;
 

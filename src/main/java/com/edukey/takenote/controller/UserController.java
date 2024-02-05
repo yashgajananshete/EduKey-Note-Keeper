@@ -1,4 +1,4 @@
-package com.mdtalalwasim.takenote.controller;
+package com.edukey.takenote.controller;
 
 import java.security.Principal;
 import java.time.LocalDate;
@@ -13,10 +13,10 @@ import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
-import com.mdtalalwasim.takenote.entity.Notes;
-import com.mdtalalwasim.takenote.entity.User;
-import com.mdtalalwasim.takenote.repository.UserRepository;
-import com.mdtalalwasim.takenote.service.NotesService;
+import com.edukey.takenote.entity.Notes;
+import com.edukey.takenote.entity.User;
+import com.edukey.takenote.repository.UserRepository;
+import com.edukey.takenote.service.NotesService;
 
 import jakarta.servlet.http.HttpSession;
 import jakarta.websocket.Session;
